@@ -2,6 +2,12 @@
 .DS_Store
 target/
 
+#Exceptions
+!/mvnw
+!/mvnw.cmd
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+
 #InteliiJ
 .idea/
 *.iml
