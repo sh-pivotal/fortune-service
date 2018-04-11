@@ -17,7 +17,7 @@ test:
     - name: cloud-bus
       type: broker
       broker: p-rabbitmq
-      plan: shared-vm
+      plan: standard
       useExisting: true
     - name: service-registry
       type: broker
